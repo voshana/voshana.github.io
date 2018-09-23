@@ -22,10 +22,9 @@
 <li>Окончил Ингушский государственный университет</li>
  <dd>Уровень бакалавр</dd>
 <li>Опыт работы по производству</li>
-
 </dl>
 
-    <a href="index.html" target="_blank">hello world</a>
+    <a href="index5.html" target="_blank">hello world</a>
 <hr>
 <h3>Приготовление домашнего печенья</h3>
 
@@ -33,9 +32,41 @@
 
 <p>Готовить при температуре 3500 градусов, предварительно нужно смазать лист для выпечки маслом. Готовить в течение 15 минут.</p>
 
+<div>
+    <h2 class="site">Заказать у меня сайт</h2>
+    <form action="order.php" method="post">
+       <label>
+       <span>Имя клиента</span>
+        <input type="text" id="site" name="name" placeholder="Введите имя">
+        </label>
+        <div>
+        <label> Введите почту 
+        <input type="text" name="email" placeholder="Введите email">
+        </label>
+        </div>
+        <div>
+        <label>Выберите пол</label>
+        <input type="radio" name="gendre" value="male"> М
+        <input type="radio" name="gendre" value="famale"> Ж
+        </div>
+        <label> Выберите заказ </label>
+        <select name="i" id="">
+            <option value="eshop">Интернет-магазин</option>
+            <option value="landing">Сайт-визитка</option>
+            <option value="card">Портфолио</option>
+        </select>
+        <div>
+            <input type="file" name="file">
+        </div>
+        <div>
+            <input type="submit" value="Отправить">
+        </div>
+        <div>
+           <label> Ваш комментарий
+            <textarea name="comment" id="" cols="30" rows="10"></textarea>
+            </label>
+        </div>
+    </form>
+</div>
 </bODY>
-
-
-
-
 </hTML>
