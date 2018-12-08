@@ -1,0 +1,365 @@
+
+.section1 {
+    width: 100%;
+    background-color: #4A76A8;
+    position: absolute; 
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 42px;
+}
+
+.logo1 {
+    margin-left: 50px;
+    padding-top: 2px;
+    height: 40px;
+}
+
+.spisok {
+    width: 9%;
+    float: left;
+}
+
+.solo {
+    width: 90%;
+    float: left;
+}
+
+.solo ul {
+    margin: 0;
+}
+
+.solo ul li {
+    list-style-type: none;
+}
+
+.solo ul li a {
+    float: right;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1.1em;
+    color: white;
+    transition: color 0.2s;
+}
+
+.solo ul li a:hover {
+    color:bisque ;
+}
+
+.section2 {
+    position: absolute; 
+    top: 0;
+    right: 0;
+    left: 0px;
+    margin-top: 42px;
+    height: 615px;
+    background: url('https://wallpapershome.ru/images/pages/pic_h/16649.jpg') no-repeat;
+    background-size: contain;
+    background-color: #EDEEF0;
+    background-position: center;
+}
+
+.section2 h1 {
+    font-size: 1.7em;
+    margin-left: 720px;
+    
+}
+
+.section2 p {
+    float: right;
+    position: absolute; 
+    top: 50px;
+    right: 0;
+    left: 0;
+    margin-left: 580px;
+    font-family: ANDALUS;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.knopka {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 100px 310px 0px 0px;
+  float: right;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  transition: .5s;
+}
+
+.knopka:hover {
+    background-position: right center;
+}
+
+.about {
+    background-color: #fffff4;
+    position: absolute; 
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 657px;
+    text-align: center;
+}
+
+.about h1 {
+    padding-top: 40px;
+}
+
+.about p {
+    font-size: 1.1em;
+    padding-top: 20px;
+}
+
+.idea {
+    height: 120px;
+}
+
+.section3 {
+    position: absolute; 
+    right: 0;
+    left: 0px;
+    margin-top: 850px;
+    margin-bottom: 0px;
+    height: 1000px;
+    background: url(https://s-i.huffpost.com/gen/1381346/images/o-PUTRA-MOSQUE-facebook.jpg) no-repeat;
+    background-size: contain;
+    background-position: center; 
+    color: #
+}
+
+.section3 h1 {
+    margin-top: 280px;
+    margin-left: 70px;
+    color: white;
+    
+}
+
+.vk_poll {
+    width: 200px;
+    height: 200px;
+}
+
+.section4 {
+    height: 250px;
+    background: url('112.jpg') no-repeat;
+    background-size: contain;
+    background-position: center; 
+    position: absolute; 
+    right: 0;
+    left: 0px;
+    margin-top: 1675px;
+}
+
+
+
+.masjid1 {
+    width: 20%;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.masjid1 img {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.masjid1 h3 {
+    padding: 0;
+    margin-top: 0px;
+    margin-left: 20px;
+    float: left;
+}
+
+.masjid2 {
+    width: 20%;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+
+.masjid2 img {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.masjid2 h3 {
+    padding: 0;
+    margin-top: 0px;
+    margin-left: 20px;
+    float: left;
+}
+
+.masjid3 {
+    width: 20%;
+    margin-left: 750px;
+    margin-top: 100px;
+}
+
+.masjid3 img {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.masjid3 h3 {
+    padding: 0;
+    margin-top: 0px;
+    margin-left: 20px;
+    float: left;
+}
+
+.masjid4 {
+    width: 20%;
+    margin-left: 1050px;
+    margin-top: 100px;
+}
+
+.masjid4 img {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.masjid4 h3 {
+    padding: 0;
+    margin-top: 0px;
+    margin-left: 20px;
+    float: left;
+}
+
+.section5 {
+    margin: 0;
+    width: 100%;
+    position: absolute; 
+    right: 0;
+    left: 0px;
+    margin-top: 1913px;
+}
+
+.hover {
+    position: relative;
+    width: 25%;
+    float: left;
+    cursor: pointer;
+}
+
+.hover img {
+    width: 100%;
+    display: block;
+}
+
+.hover:after{
+    content: '';
+    position: absolute;
+    transition: all 0.5s ease-out;
+    opacity: 0;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    right: 0;;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 2;
+}
+
+.hover:hover:after{
+    opacity: 1;
+    visibility: visible;
+}
+
+.hover:before{
+    content: '';
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: -25px;
+    margin-top: -25px;
+    background: red;
+    z-index: 3;
+        
+}
+
+.hover:hover:before{
+    opacity: 1;
+    visibility: visible;
+}
+
+.section6 {
+    height: 100px;
+    background-color:beige ;
+    margin: 0;
+    width: 100%;
+    position: absolute; 
+    right: 0;
+    left: 0px;
+    margin-top: 2588px;
+    
+}
+
+.section6 h2 {
+    font-size: 1.7em;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.section7 {
+    height: 600px;
+    margin: 0;
+    width: 100%;
+    position: absolute; 
+    right: 0;
+    left: 0px;
+    margin-top: 2688px;
+    
+}
+
+.section7 h1  {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.section7 p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section7 iframe {
+    margin-left: 150px;
+    width: 80%;
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+.section8 {
+    background-color: beige;
+    width: 100%;
+    position: absolute; 
+    right: 0;
+    left: 0px;
+    margin-top: 3542px;
+    height: 500px;
+}
+.logo1 {
+    margin: 0;
+    padding: 0;
+    width: 25%;
+}
+
+.logo1 img {
+    width: 5%;
+    margin: 0;
+    margin-top: 50px;
+}
